@@ -1,0 +1,32 @@
+.social-con img {
+    width: 95%;
+    padding: 2%;
+}
+span.labl1 {
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    padding: 1%;
+    margin: 2% 4% 1% 0%;
+}
+span.labl1-bg{
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    padding: 1%;
+}
+.login-but {
+      width: 84%;
+    margin: 0 auto;
+    background: #b5b5b5;
+    padding: 4%;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #000;
+    text-transform: uppercase;
+    left: 5%;
+    font-weight: bold;
+    clear: both;
+}

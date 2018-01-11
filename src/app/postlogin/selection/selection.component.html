@@ -1,0 +1,60 @@
+<!--The content below is only a placeholder and can be replaced.-->
+    <div class="head-bar">Setting</div>
+    <div class="radio-buttons">
+
+        <div class="radio" *ngFor="let entry of entries; let idx = index" >
+          <div class="radio-lbl"> {{entry.description}}</div>
+          <input type="radio" name="radiogroup" (change)="onSelectionChange(entry)" [checked]="(idx === 0)" [value]="entry.id">
+          <span class="radio-price-tag">${{entry.value}}</span>
+        </div>
+        <div class="radio">
+          <div class="radio-lbl">LITE <br>CLEAN</div>
+          <input type="radio" (change)="onSelectionChange(1)"  [checked]="(idx1 === 1)">
+          <span class="radio-price-tag">$10.00 {{idx1}}</span>
+        </div>
+        <div class="radio">
+          <div class="radio-lbl">NORMAL <br>CLEAN</div>
+          <input type="radio" (change)="onSelectionChange(2)"  [checked]="(idx2 === 2)">
+          <span class="radio-price-tag">$15.00 {{idx2}}</span>
+        </div>
+        <div class="radio">
+          <div class="radio-lbl">DEEP <br>CLEAN</div>
+          <input type="radio" (change)="onSelectionChange(3)"  [checked]="(idx3 === 3)">
+          <span class="radio-price-tag">$20.00 {{idx3}}</span>
+        </div>
+    </div>
+    <hr>
+    <h2>10 min</h2>
+    <h3>Scent inclusion <span>What is this?</span></h3>
+    <div class="scent-icons-wrap">
+      <div class="scent-icons">
+      <img  class="" src="../../assets/img/2_1.png">
+      <small>Citrus</small>
+      </div>
+      <div class="scent-icons">
+      <img class="" src="../../assets/img/2_2.png">
+      <small>Mint</small>
+      </div>
+      <div class="scent-icons">
+      <img class="" src="../../assets/img/2_3.png">    
+      <small>None</small>
+      </div>
+    </div>
+    <hr class="long-hr">
+    <div class="init-buttons">
+        <svg width="63" height="64" class="round-button">
+          <circle cx="24" cy="29" r="21" stroke="#666666" stroke-width="2" fill="#666666"></circle>
+          <text fill="#ecd9d9" x="9" y="34">Cancel</text>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+        <svg width="63" height="64" class="round-button" style="float: right;" routerLink="/counter">
+          <circle cx="24" cy="29" r="21" stroke="#00EF8E" stroke-width="2" fill="#00EF8E"></circle>
+          <text fill="#ecd9d9" x="9" y="34">Start</text>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+    </div>
+  
+    <!-- <mat-radio-group>
+      <mat-radio-button value="1">Option 1</mat-radio-button>
+      <mat-radio-button value="2">Option 2</mat-radio-button>
+    </mat-radio-group> -->

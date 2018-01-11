@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div class="head-bar">in progress</div>
+
+<h2>{{countDown}} min</h2>
+<div class="chat-box">
+    EMBEDDED CHAT WINDOW
+</div>
+<hr class="long-hr">
+<div class="init-buttons">
+    <svg width="63" height="64" class="round-button" (click)="changeTimerState(countDown)">
+        <circle cx="24" cy="29" r="21" stroke="#666666" stroke-width="2" fill="#666666"></circle>
+        <text fill="#ecd9d9" x="9" y="34">Pause</text>
+        Sorry, your browser does not support inline SVG.
+    </svg>
+    <svg width="63" height="64" class="round-button" style="float: right;" (click)="stopTimer(countDown)">
+        <circle cx="24" cy="29" r="21" stroke="#f51e1e" stroke-width="2" fill="#f51e1e"></circle>
+        <text fill="#ecd9d9" x="9" y="34">Stop</text>
+        Sorry, your browser does not support inline SVG.
+    </svg>
+</div>
+
+<!-- <mat-radio-group>
+      <mat-radio-button value="1">Option 1</mat-radio-button>
+      <mat-radio-button value="2">Option 2</mat-radio-button>
+    </mat-radio-group> -->

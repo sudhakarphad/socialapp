@@ -1,0 +1,53 @@
+.radio {
+    width: 33.33%;
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+input[type="radio"] {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    margin: 17px;
+}
+.radio-buttons {
+    width: 100%;
+    float: left;
+    margin: 5% 0% 5% 0%;
+}
+hr {
+    width: 90%;
+    height: 2px;
+    background: #888585;
+    border: 0px;
+}
+h2 {
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.scent-icons {margin: 4%;cursor: pointer;opacity: 0.7;width: 25%;float: left;
+}
+.scent-icons:hover{opacity: 1; color:#fff}
+.scent-icons-wrap{width: 89%;margin: 0 auto;}
+.round-button
+{
+    float: left;
+    width: 40%;
+}
+
+.chat-box {
+    margin-top: 10%;
+    min-height: 227px;
+    background: #fff;
+    width: 88%;
+    margin: 0 auto;
+    padding: 1%;
+    margin-bottom: 8%;
+    border-radius: 10px;
+    color: #4b4949;
+    font-size: 14px;
+    font-weight: bold;
+}
